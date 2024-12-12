@@ -24,17 +24,17 @@ install_requires = [
     'botocore>=1.14.0,<2.0.0',
     'typing-extensions>=4.0.0,<5.0.0;python_version<"3.8"',
     'six>=1.10.0,<2.0.0',
-    'pip>=9,<23.4',
+    'pip>=9,<24.4',
     'jmespath>=0.9.3,<2.0.0',
     'pyyaml>=5.3.1,<7.0.0',
-    'inquirer>=2.7.0,<3.0.0',
+    'inquirer>=3.0.0,<4.0.0',
     'wheel',
     'setuptools'
 ]
 
 setup(
     name='chalice',
-    version='1.31.0',
+    version='1.31.3',
     description="Microframework",
     long_description=README,
     author="James Saryerwinnie",
